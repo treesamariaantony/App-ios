@@ -8,21 +8,45 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var thirdLabel: UILabel!
-    @IBOutlet weak var secondLabel: UILabel!
-    @IBOutlet weak var firstLabel: UILabel!
-    
+    @IBOutlet weak var errorLabel: UILabel!
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var passwordTextfield: UITextField!
+    @IBOutlet weak var passwordLabel: UILabel!
+    @IBOutlet weak var usernamTextField: UITextField!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var loginImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        firstLabel.text = "1111111111111Hello World"
-        secondLabel.text = "2222222222222Hello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello World"
-        thirdLabel.text = "3333333333333Hello WorldHello WorldHHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello Worldello WorldHello WorldHello WorldHello World"
-        
-        
+        setupUI()
+       
         // Do any additional setup after loading the view.
     }
 
+    func setupUI(){
+    
+        titleLabel.text = "Welcome!"
+        titleLabel.font = UIFont(name: "Helvetica-Bold", size: 24.0)
+        loginImageView.image = UIImage(named : "Mcd")
+        
+        usernameLabel.text = "Username"
+        usernameLabel.font = UIFont(name: "Helvetica-Bold", size: 14.0)
+        usernamTextField.placeholder = "Type your Username"
+        
+        passwordLabel.text = "Password"
+        passwordLabel.font = UIFont(name: "Helvetica-Bold", size: 14.0)
+        passwordTextfield.placeholder = "Type your Password"
+        
+        loginButton.setTitle("login".uppercased(), for: .normal)
+        loginButton.titleLabel?.font = UIFont(name: "Helvetica-Bold", size: 14.0)
+        
+        errorLabel.isHidden = true
+        
+    }
 
+    @IBAction func buttonClicked(_ sender: UIButton) {
+    }
 }
 
     
