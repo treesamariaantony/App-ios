@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC7E60DB2BAA1E1200D344DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E60D92BAA1E1200D344DE /* SecondViewController.swift */; };
+		AC7E60DC2BAA1E1200D344DE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7E60DA2BAA1E1200D344DE /* SecondViewController.xib */; };
 		AC87A9BB2B9F91E100F06227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87A9BA2B9F91E100F06227 /* AppDelegate.swift */; };
 		AC87A9BD2B9F91E100F06227 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87A9BC2B9F91E100F06227 /* SceneDelegate.swift */; };
 		AC87A9BF2B9F91E100F06227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87A9BE2B9F91E100F06227 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC7E60D92BAA1E1200D344DE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AC7E60DA2BAA1E1200D344DE /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		AC87A9B72B9F91E100F06227 /* App-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC87A9BA2B9F91E100F06227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC87A9BC2B9F91E100F06227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				AC87A9C32B9F91E400F06227 /* Assets.xcassets */,
 				AC87A9C52B9F91E400F06227 /* LaunchScreen.storyboard */,
 				AC87A9C82B9F91E400F06227 /* Info.plist */,
+				AC7E60D92BAA1E1200D344DE /* SecondViewController.swift */,
+				AC7E60DA2BAA1E1200D344DE /* SecondViewController.xib */,
 			);
 			path = "App-ios";
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7E60DC2BAA1E1200D344DE /* SecondViewController.xib in Resources */,
 				AC87A9C72B9F91E400F06227 /* LaunchScreen.storyboard in Resources */,
 				AC87A9C42B9F91E400F06227 /* Assets.xcassets in Resources */,
 				AC87A9C22B9F91E100F06227 /* Main.storyboard in Resources */,
@@ -152,6 +159,7 @@
 				ACECEA972BAA1603005C7E8F /* LoginViewModel.swift in Sources */,
 				AC87A9BF2B9F91E100F06227 /* ViewController.swift in Sources */,
 				AC87A9BB2B9F91E100F06227 /* AppDelegate.swift in Sources */,
+				AC7E60DB2BAA1E1200D344DE /* SecondViewController.swift in Sources */,
 				AC87A9BD2B9F91E100F06227 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
